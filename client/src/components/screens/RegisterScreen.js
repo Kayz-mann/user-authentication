@@ -68,12 +68,12 @@ function RegisterScreen({ history }) {
                     onChange={(e) => setEmail(e.target.value)} />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="passwprd">Psaaword: </label>
+                    <label htmlFor="passwprd">Password: </label>
                     <input type="password" required id="password" placeholder="Enter password" value={password}
                     onChange={(e) => setPassword(e.target.value)} />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="confirmpasswprd">Confirm Psaaword: </label>
+                    <label htmlFor="confirmpasswprd">Confirm Password: </label>
                     <input type="confirmpassword" required id="confirmpassword" placeholder="Confirm Password" value={confirmPassword}
                     onChange={(e) => setConfirmPassword(e.target.value)} />
 
